@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E468991D2049ABCB003C2153 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E468991C2049ABCB003C2153 /* ResultViewController.swift */; };
 		E4A5871B204454FF0034F842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5871A204454FF0034F842 /* AppDelegate.swift */; };
 		E4A5871D204454FF0034F842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5871C204454FF0034F842 /* ViewController.swift */; };
 		E4A58720204454FF0034F842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A5871E204454FF0034F842 /* Main.storyboard */; };
@@ -17,62 +18,63 @@
 		E4AA12F32045B1CC0056EC98 /* Wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12B92045B1AE0056EC98 /* Wave.jpg */; };
 		E4AA12F42045B1CC0056EC98 /* Beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BA2045B1AE0056EC98 /* Beach.jpg */; };
 		E4AA12F52045B1CC0056EC98 /* Desert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BB2045B1AE0056EC98 /* Desert.jpg */; };
-		E4AA12F62045B1CC0056EC98 /* Bahamas Aerial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BC2045B1AF0056EC98 /* Bahamas Aerial.jpg */; };
-		E4AA12F72045B1CC0056EC98 /* Eagle & Waterfall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BD2045B1AF0056EC98 /* Eagle & Waterfall.jpg */; };
+		E4AA12F62045B1CC0056EC98 /* Bahamas_Aerial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BC2045B1AF0056EC98 /* Bahamas_Aerial.jpg */; };
+		E4AA12F72045B1CC0056EC98 /* Eagle&Waterfall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BD2045B1AF0056EC98 /* Eagle&Waterfall.jpg */; };
 		E4AA12F82045B1CC0056EC98 /* Elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BE2045B1B00056EC98 /* Elephant.jpg */; };
-		E4AA12F92045B1CC0056EC98 /* Yosemite 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BF2045B1B00056EC98 /* Yosemite 4.jpg */; };
-		E4AA12FA2045B1CC0056EC98 /* Mt. Fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C02045B1B10056EC98 /* Mt. Fuji.jpg */; };
-		E4AA12FB2045B1CC0056EC98 /* Yosemite 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C12045B1B10056EC98 /* Yosemite 2.jpg */; };
-		E4AA12FC2045B1CC0056EC98 /* Sierra 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C22045B1B20056EC98 /* Sierra 2.jpg */; };
+		E4AA12F92045B1CC0056EC98 /* Yosemite_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12BF2045B1B00056EC98 /* Yosemite_4.jpg */; };
+		E4AA12FA2045B1CC0056EC98 /* Mt.Fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C02045B1B10056EC98 /* Mt.Fuji.jpg */; };
+		E4AA12FB2045B1CC0056EC98 /* Yosemite_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C12045B1B10056EC98 /* Yosemite_2.jpg */; };
+		E4AA12FC2045B1CC0056EC98 /* Sierra_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C22045B1B20056EC98 /* Sierra_2.jpg */; };
 		E4AA12FD2045B1CC0056EC98 /* Sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C32045B1B20056EC98 /* Sky.jpg */; };
-		E4AA12FE2045B1CC0056EC98 /* Red Bells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C42045B1B20056EC98 /* Red Bells.jpg */; };
-		E4AA12FF2045B1CC0056EC98 /* Earth and Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C52045B1B30056EC98 /* Earth and Moon.jpg */; };
-		E4AA13002045B1CC0056EC98 /* Foggy Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C62045B1B30056EC98 /* Foggy Forest.jpg */; };
-		E4AA13012045B1CC0056EC98 /* Forest in Mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C72045B1B30056EC98 /* Forest in Mist.jpg */; };
+		E4AA12FE2045B1CC0056EC98 /* Red_Bells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C42045B1B20056EC98 /* Red_Bells.jpg */; };
+		E4AA12FF2045B1CC0056EC98 /* Earth_and_Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C52045B1B30056EC98 /* Earth_and_Moon.jpg */; };
+		E4AA13002045B1CC0056EC98 /* Foggy_Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C62045B1B30056EC98 /* Foggy_Forest.jpg */; };
+		E4AA13012045B1CC0056EC98 /* Forest_in_Mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C72045B1B30056EC98 /* Forest_in_Mist.jpg */; };
 		E4AA13022045B1CC0056EC98 /* Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C82045B1B40056EC98 /* Lake.jpg */; };
 		E4AA13032045B1CC0056EC98 /* Snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12C92045B1B40056EC98 /* Snow.jpg */; };
-		E4AA13042045B1CC0056EC98 /* El Capitan 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CA2045B1B40056EC98 /* El Capitan 2.jpg */; };
+		E4AA13042045B1CC0056EC98 /* El_Capitan_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CA2045B1B40056EC98 /* El_Capitan_2.jpg */; };
 		E4AA13052045B1CC0056EC98 /* Underwater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CB2045B1B50056EC98 /* Underwater.jpg */; };
 		E4AA13062045B1CC0056EC98 /* Poppies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CC2045B1B50056EC98 /* Poppies.jpg */; };
-		E4AA13072045B1CC0056EC98 /* El Capitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CD2045B1B60056EC98 /* El Capitan.jpg */; };
-		E4AA13082045B1CC0056EC98 /* Antelope Canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CE2045B1B70056EC98 /* Antelope Canyon.jpg */; };
+		E4AA13072045B1CC0056EC98 /* El_Capitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CD2045B1B60056EC98 /* El_Capitan.jpg */; };
+		E4AA13082045B1CC0056EC98 /* Antelope_Canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CE2045B1B70056EC98 /* Antelope_Canyon.jpg */; };
 		E4AA13092045B1CC0056EC98 /* Brushes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12CF2045B1B70056EC98 /* Brushes.jpg */; };
-		E4AA130A2045B1CC0056EC98 /* Abstract Shapes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D02045B1B80056EC98 /* Abstract Shapes.jpg */; };
+		E4AA130A2045B1CC0056EC98 /* Abstract_Shapes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D02045B1B80056EC98 /* Abstract_Shapes.jpg */; };
 		E4AA130B2045B1CC0056EC98 /* Circles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D12045B1B80056EC98 /* Circles.jpg */; };
-		E4AA130C2045B1CC0056EC98 /* Hawaiian Print.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D22045B1B90056EC98 /* Hawaiian Print.jpg */; };
-		E4AA130D2045B1CC0056EC98 /* High Sierra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D32045B1BA0056EC98 /* High Sierra.jpg */; };
-		E4AA130E2045B1CC0056EC98 /* Pink Lotus Flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D42045B1BB0056EC98 /* Pink Lotus Flower.jpg */; };
-		E4AA130F2045B1CC0056EC98 /* Blue Pond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D52045B1BC0056EC98 /* Blue Pond.jpg */; };
-		E4AA13102045B1CC0056EC98 /* Color Burst 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D62045B1BC0056EC98 /* Color Burst 2.jpg */; };
+		E4AA130C2045B1CC0056EC98 /* Hawaiian_Print.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D22045B1B90056EC98 /* Hawaiian_Print.jpg */; };
+		E4AA130D2045B1CC0056EC98 /* High_Sierra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D32045B1BA0056EC98 /* High_Sierra.jpg */; };
+		E4AA130E2045B1CC0056EC98 /* Pink_Lotus_Flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D42045B1BB0056EC98 /* Pink_Lotus_Flower.jpg */; };
+		E4AA130F2045B1CC0056EC98 /* Blue_Pond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D52045B1BC0056EC98 /* Blue_Pond.jpg */; };
+		E4AA13102045B1CC0056EC98 /* Color_Burst_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D62045B1BC0056EC98 /* Color_Burst_2.jpg */; };
 		E4AA13112045B1CC0056EC98 /* Lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D72045B1BD0056EC98 /* Lion.jpg */; };
-		E4AA13122045B1CC0056EC98 /* Bristle Grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D82045B1BD0056EC98 /* Bristle Grass.jpg */; };
-		E4AA13132045B1CC0056EC98 /* Grass Blades.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D92045B1BE0056EC98 /* Grass Blades.jpg */; };
-		E4AA13142045B1CC0056EC98 /* Yosemite 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DA2045B1BE0056EC98 /* Yosemite 5.jpg */; };
+		E4AA13122045B1CC0056EC98 /* Bristle_Grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D82045B1BD0056EC98 /* Bristle_Grass.jpg */; };
+		E4AA13132045B1CC0056EC98 /* Grass_Blades.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12D92045B1BE0056EC98 /* Grass_Blades.jpg */; };
+		E4AA13142045B1CC0056EC98 /* Yosemite_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DA2045B1BE0056EC98 /* Yosemite_5.jpg */; };
 		E4AA13152045B1CC0056EC98 /* Floating Leaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DB2045B1BF0056EC98 /* Floating Leaves.jpg */; };
 		E4AA13162045B1CC0056EC98 /* Abstract.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DC2045B1BF0056EC98 /* Abstract.jpg */; };
 		E4AA13172045B1CC0056EC98 /* Isles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DD2045B1C00056EC98 /* Isles.jpg */; };
-		E4AA13182045B1CC0056EC98 /* Mountain Range.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DE2045B1C00056EC98 /* Mountain Range.jpg */; };
-		E4AA13192045B1CC0056EC98 /* Rolling Waves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DF2045B1C00056EC98 /* Rolling Waves.jpg */; };
+		E4AA13182045B1CC0056EC98 /* Mountain_Range.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DE2045B1C00056EC98 /* Mountain_Range.jpg */; };
+		E4AA13192045B1CC0056EC98 /* Rolling_Waves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12DF2045B1C00056EC98 /* Rolling_Waves.jpg */; };
 		E4AA131A2045B1CC0056EC98 /* Zebras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E02045B1C20056EC98 /* Zebras.jpg */; };
-		E4AA131B2045B1CC0056EC98 /* Rice Paddy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E12045B1C30056EC98 /* Rice Paddy.jpg */; };
-		E4AA131C2045B1CC0056EC98 /* Earth Horizon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E22045B1C30056EC98 /* Earth Horizon.jpg */; };
-		E4AA131D2045B1CC0056EC98 /* Pink Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E32045B1C40056EC98 /* Pink Forest.jpg */; };
+		E4AA131B2045B1CC0056EC98 /* Rice_Paddy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E12045B1C30056EC98 /* Rice_Paddy.jpg */; };
+		E4AA131C2045B1CC0056EC98 /* Earth_Horizon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E22045B1C30056EC98 /* Earth_Horizon.jpg */; };
+		E4AA131D2045B1CC0056EC98 /* Pink_Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E32045B1C40056EC98 /* Pink_Forest.jpg */; };
 		E4AA131E2045B1CC0056EC98 /* Sierra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E42045B1C40056EC98 /* Sierra.jpg */; };
-		E4AA131F2045B1CC0056EC98 /* Foxtail Barley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E52045B1C50056EC98 /* Foxtail Barley.jpg */; };
-		E4AA13202045B1CC0056EC98 /* Color Burst 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E62045B1C50056EC98 /* Color Burst 1.jpg */; };
+		E4AA131F2045B1CC0056EC98 /* Foxtail_Barley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E52045B1C50056EC98 /* Foxtail_Barley.jpg */; };
+		E4AA13202045B1CC0056EC98 /* Color_Burst_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E62045B1C50056EC98 /* Color_Burst_1.jpg */; };
 		E4AA13212045B1CC0056EC98 /* Shapes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E72045B1C60056EC98 /* Shapes.jpg */; };
 		E4AA13222045B1CC0056EC98 /* Frog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E82045B1C60056EC98 /* Frog.jpg */; };
-		E4AA13232045B1CC0056EC98 /* Ducks on a Misty Pond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E92045B1C70056EC98 /* Ducks on a Misty Pond.jpg */; };
-		E4AA13242045B1CC0056EC98 /* Milky Way.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EA2045B1C70056EC98 /* Milky Way.jpg */; };
+		E4AA13232045B1CC0056EC98 /* Ducks_on_a_Misty_Pond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12E92045B1C70056EC98 /* Ducks_on_a_Misty_Pond.jpg */; };
+		E4AA13242045B1CC0056EC98 /* Milky_Way.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EA2045B1C70056EC98 /* Milky_Way.jpg */; };
 		E4AA13252045B1CC0056EC98 /* Flamingos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EB2045B1C80056EC98 /* Flamingos.jpg */; };
-		E4AA13262045B1CC0056EC98 /* Death Valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EC2045B1C90056EC98 /* Death Valley.jpg */; };
-		E4AA13272045B1CC0056EC98 /* Floating Ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12ED2045B1C90056EC98 /* Floating Ice.jpg */; };
+		E4AA13262045B1CC0056EC98 /* Death_Valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EC2045B1C90056EC98 /* Death_Valley.jpg */; };
+		E4AA13272045B1CC0056EC98 /* Floating_Ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12ED2045B1C90056EC98 /* Floating_Ice.jpg */; };
 		E4AA13282045B1CC0056EC98 /* Yosemite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EE2045B1CA0056EC98 /* Yosemite.jpg */; };
-		E4AA13292045B1CC0056EC98 /* Yosemite 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EF2045B1CB0056EC98 /* Yosemite 3.jpg */; };
-		E4AA132A2045B1CC0056EC98 /* Color Burst 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12F02045B1CB0056EC98 /* Color Burst 3.jpg */; };
+		E4AA13292045B1CC0056EC98 /* Yosemite_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12EF2045B1CB0056EC98 /* Yosemite_3.jpg */; };
+		E4AA132A2045B1CC0056EC98 /* Color_Burst_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4AA12F02045B1CB0056EC98 /* Color_Burst_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E468991C2049ABCB003C2153 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		E4A58717204454FF0034F842 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A5871A204454FF0034F842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A5871C204454FF0034F842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,59 +87,59 @@
 		E4AA12B92045B1AE0056EC98 /* Wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wave.jpg; sourceTree = "<group>"; };
 		E4AA12BA2045B1AE0056EC98 /* Beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beach.jpg; sourceTree = "<group>"; };
 		E4AA12BB2045B1AE0056EC98 /* Desert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Desert.jpg; sourceTree = "<group>"; };
-		E4AA12BC2045B1AF0056EC98 /* Bahamas Aerial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bahamas Aerial.jpg"; sourceTree = "<group>"; };
-		E4AA12BD2045B1AF0056EC98 /* Eagle & Waterfall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eagle & Waterfall.jpg"; sourceTree = "<group>"; };
+		E4AA12BC2045B1AF0056EC98 /* Bahamas_Aerial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bahamas_Aerial.jpg; sourceTree = "<group>"; };
+		E4AA12BD2045B1AF0056EC98 /* Eagle&Waterfall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eagle&Waterfall.jpg"; sourceTree = "<group>"; };
 		E4AA12BE2045B1B00056EC98 /* Elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elephant.jpg; sourceTree = "<group>"; };
-		E4AA12BF2045B1B00056EC98 /* Yosemite 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yosemite 4.jpg"; sourceTree = "<group>"; };
-		E4AA12C02045B1B10056EC98 /* Mt. Fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mt. Fuji.jpg"; sourceTree = "<group>"; };
-		E4AA12C12045B1B10056EC98 /* Yosemite 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yosemite 2.jpg"; sourceTree = "<group>"; };
-		E4AA12C22045B1B20056EC98 /* Sierra 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sierra 2.jpg"; sourceTree = "<group>"; };
+		E4AA12BF2045B1B00056EC98 /* Yosemite_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite_4.jpg; sourceTree = "<group>"; };
+		E4AA12C02045B1B10056EC98 /* Mt.Fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mt.Fuji.jpg; sourceTree = "<group>"; };
+		E4AA12C12045B1B10056EC98 /* Yosemite_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite_2.jpg; sourceTree = "<group>"; };
+		E4AA12C22045B1B20056EC98 /* Sierra_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sierra_2.jpg; sourceTree = "<group>"; };
 		E4AA12C32045B1B20056EC98 /* Sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sky.jpg; sourceTree = "<group>"; };
-		E4AA12C42045B1B20056EC98 /* Red Bells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Red Bells.jpg"; sourceTree = "<group>"; };
-		E4AA12C52045B1B30056EC98 /* Earth and Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earth and Moon.jpg"; sourceTree = "<group>"; };
-		E4AA12C62045B1B30056EC98 /* Foggy Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Foggy Forest.jpg"; sourceTree = "<group>"; };
-		E4AA12C72045B1B30056EC98 /* Forest in Mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Forest in Mist.jpg"; sourceTree = "<group>"; };
+		E4AA12C42045B1B20056EC98 /* Red_Bells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Red_Bells.jpg; sourceTree = "<group>"; };
+		E4AA12C52045B1B30056EC98 /* Earth_and_Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth_and_Moon.jpg; sourceTree = "<group>"; };
+		E4AA12C62045B1B30056EC98 /* Foggy_Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Foggy_Forest.jpg; sourceTree = "<group>"; };
+		E4AA12C72045B1B30056EC98 /* Forest_in_Mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forest_in_Mist.jpg; sourceTree = "<group>"; };
 		E4AA12C82045B1B40056EC98 /* Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lake.jpg; sourceTree = "<group>"; };
 		E4AA12C92045B1B40056EC98 /* Snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snow.jpg; sourceTree = "<group>"; };
-		E4AA12CA2045B1B40056EC98 /* El Capitan 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El Capitan 2.jpg"; sourceTree = "<group>"; };
+		E4AA12CA2045B1B40056EC98 /* El_Capitan_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = El_Capitan_2.jpg; sourceTree = "<group>"; };
 		E4AA12CB2045B1B50056EC98 /* Underwater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Underwater.jpg; sourceTree = "<group>"; };
 		E4AA12CC2045B1B50056EC98 /* Poppies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poppies.jpg; sourceTree = "<group>"; };
-		E4AA12CD2045B1B60056EC98 /* El Capitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El Capitan.jpg"; sourceTree = "<group>"; };
-		E4AA12CE2045B1B70056EC98 /* Antelope Canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antelope Canyon.jpg"; sourceTree = "<group>"; };
+		E4AA12CD2045B1B60056EC98 /* El_Capitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = El_Capitan.jpg; sourceTree = "<group>"; };
+		E4AA12CE2045B1B70056EC98 /* Antelope_Canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Antelope_Canyon.jpg; sourceTree = "<group>"; };
 		E4AA12CF2045B1B70056EC98 /* Brushes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brushes.jpg; sourceTree = "<group>"; };
-		E4AA12D02045B1B80056EC98 /* Abstract Shapes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract Shapes.jpg"; sourceTree = "<group>"; };
+		E4AA12D02045B1B80056EC98 /* Abstract_Shapes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abstract_Shapes.jpg; sourceTree = "<group>"; };
 		E4AA12D12045B1B80056EC98 /* Circles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Circles.jpg; sourceTree = "<group>"; };
-		E4AA12D22045B1B90056EC98 /* Hawaiian Print.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hawaiian Print.jpg"; sourceTree = "<group>"; };
-		E4AA12D32045B1BA0056EC98 /* High Sierra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "High Sierra.jpg"; sourceTree = "<group>"; };
-		E4AA12D42045B1BB0056EC98 /* Pink Lotus Flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pink Lotus Flower.jpg"; sourceTree = "<group>"; };
-		E4AA12D52045B1BC0056EC98 /* Blue Pond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue Pond.jpg"; sourceTree = "<group>"; };
-		E4AA12D62045B1BC0056EC98 /* Color Burst 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Color Burst 2.jpg"; sourceTree = "<group>"; };
+		E4AA12D22045B1B90056EC98 /* Hawaiian_Print.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hawaiian_Print.jpg; sourceTree = "<group>"; };
+		E4AA12D32045B1BA0056EC98 /* High_Sierra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = High_Sierra.jpg; sourceTree = "<group>"; };
+		E4AA12D42045B1BB0056EC98 /* Pink_Lotus_Flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pink_Lotus_Flower.jpg; sourceTree = "<group>"; };
+		E4AA12D52045B1BC0056EC98 /* Blue_Pond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blue_Pond.jpg; sourceTree = "<group>"; };
+		E4AA12D62045B1BC0056EC98 /* Color_Burst_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Color_Burst_2.jpg; sourceTree = "<group>"; };
 		E4AA12D72045B1BD0056EC98 /* Lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion.jpg; sourceTree = "<group>"; };
-		E4AA12D82045B1BD0056EC98 /* Bristle Grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bristle Grass.jpg"; sourceTree = "<group>"; };
-		E4AA12D92045B1BE0056EC98 /* Grass Blades.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grass Blades.jpg"; sourceTree = "<group>"; };
-		E4AA12DA2045B1BE0056EC98 /* Yosemite 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yosemite 5.jpg"; sourceTree = "<group>"; };
+		E4AA12D82045B1BD0056EC98 /* Bristle_Grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bristle_Grass.jpg; sourceTree = "<group>"; };
+		E4AA12D92045B1BE0056EC98 /* Grass_Blades.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grass_Blades.jpg; sourceTree = "<group>"; };
+		E4AA12DA2045B1BE0056EC98 /* Yosemite_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite_5.jpg; sourceTree = "<group>"; };
 		E4AA12DB2045B1BF0056EC98 /* Floating Leaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Floating Leaves.jpg"; sourceTree = "<group>"; };
 		E4AA12DC2045B1BF0056EC98 /* Abstract.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abstract.jpg; sourceTree = "<group>"; };
 		E4AA12DD2045B1C00056EC98 /* Isles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isles.jpg; sourceTree = "<group>"; };
-		E4AA12DE2045B1C00056EC98 /* Mountain Range.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mountain Range.jpg"; sourceTree = "<group>"; };
-		E4AA12DF2045B1C00056EC98 /* Rolling Waves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rolling Waves.jpg"; sourceTree = "<group>"; };
+		E4AA12DE2045B1C00056EC98 /* Mountain_Range.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountain_Range.jpg; sourceTree = "<group>"; };
+		E4AA12DF2045B1C00056EC98 /* Rolling_Waves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rolling_Waves.jpg; sourceTree = "<group>"; };
 		E4AA12E02045B1C20056EC98 /* Zebras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zebras.jpg; sourceTree = "<group>"; };
-		E4AA12E12045B1C30056EC98 /* Rice Paddy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rice Paddy.jpg"; sourceTree = "<group>"; };
-		E4AA12E22045B1C30056EC98 /* Earth Horizon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earth Horizon.jpg"; sourceTree = "<group>"; };
-		E4AA12E32045B1C40056EC98 /* Pink Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pink Forest.jpg"; sourceTree = "<group>"; };
+		E4AA12E12045B1C30056EC98 /* Rice_Paddy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rice_Paddy.jpg; sourceTree = "<group>"; };
+		E4AA12E22045B1C30056EC98 /* Earth_Horizon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth_Horizon.jpg; sourceTree = "<group>"; };
+		E4AA12E32045B1C40056EC98 /* Pink_Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pink_Forest.jpg; sourceTree = "<group>"; };
 		E4AA12E42045B1C40056EC98 /* Sierra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sierra.jpg; sourceTree = "<group>"; };
-		E4AA12E52045B1C50056EC98 /* Foxtail Barley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Foxtail Barley.jpg"; sourceTree = "<group>"; };
-		E4AA12E62045B1C50056EC98 /* Color Burst 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Color Burst 1.jpg"; sourceTree = "<group>"; };
+		E4AA12E52045B1C50056EC98 /* Foxtail_Barley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Foxtail_Barley.jpg; sourceTree = "<group>"; };
+		E4AA12E62045B1C50056EC98 /* Color_Burst_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Color_Burst_1.jpg; sourceTree = "<group>"; };
 		E4AA12E72045B1C60056EC98 /* Shapes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shapes.jpg; sourceTree = "<group>"; };
 		E4AA12E82045B1C60056EC98 /* Frog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Frog.jpg; sourceTree = "<group>"; };
-		E4AA12E92045B1C70056EC98 /* Ducks on a Misty Pond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ducks on a Misty Pond.jpg"; sourceTree = "<group>"; };
-		E4AA12EA2045B1C70056EC98 /* Milky Way.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Milky Way.jpg"; sourceTree = "<group>"; };
+		E4AA12E92045B1C70056EC98 /* Ducks_on_a_Misty_Pond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ducks_on_a_Misty_Pond.jpg; sourceTree = "<group>"; };
+		E4AA12EA2045B1C70056EC98 /* Milky_Way.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Milky_Way.jpg; sourceTree = "<group>"; };
 		E4AA12EB2045B1C80056EC98 /* Flamingos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flamingos.jpg; sourceTree = "<group>"; };
-		E4AA12EC2045B1C90056EC98 /* Death Valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Death Valley.jpg"; sourceTree = "<group>"; };
-		E4AA12ED2045B1C90056EC98 /* Floating Ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Floating Ice.jpg"; sourceTree = "<group>"; };
+		E4AA12EC2045B1C90056EC98 /* Death_Valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Death_Valley.jpg; sourceTree = "<group>"; };
+		E4AA12ED2045B1C90056EC98 /* Floating_Ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Floating_Ice.jpg; sourceTree = "<group>"; };
 		E4AA12EE2045B1CA0056EC98 /* Yosemite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite.jpg; sourceTree = "<group>"; };
-		E4AA12EF2045B1CB0056EC98 /* Yosemite 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yosemite 3.jpg"; sourceTree = "<group>"; };
-		E4AA12F02045B1CB0056EC98 /* Color Burst 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Color Burst 3.jpg"; sourceTree = "<group>"; };
+		E4AA12EF2045B1CB0056EC98 /* Yosemite_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite_3.jpg; sourceTree = "<group>"; };
+		E4AA12F02045B1CB0056EC98 /* Color_Burst_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Color_Burst_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		E4A58719204454FF0034F842 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				E468991C2049ABCB003C2153 /* ResultViewController.swift */,
 				E4A5871A204454FF0034F842 /* AppDelegate.swift */,
 				E4A5871C204454FF0034F842 /* ViewController.swift */,
 				E4A5871E204454FF0034F842 /* Main.storyboard */,
@@ -185,62 +188,62 @@
 			isa = PBXGroup;
 			children = (
 				E4AA12D12045B1B80056EC98 /* Circles.jpg */,
-				E4AA12E62045B1C50056EC98 /* Color Burst 1.jpg */,
-				E4AA12D62045B1BC0056EC98 /* Color Burst 2.jpg */,
-				E4AA12F02045B1CB0056EC98 /* Color Burst 3.jpg */,
-				E4AA12EC2045B1C90056EC98 /* Death Valley.jpg */,
+				E4AA12E62045B1C50056EC98 /* Color_Burst_1.jpg */,
+				E4AA12D62045B1BC0056EC98 /* Color_Burst_2.jpg */,
+				E4AA12F02045B1CB0056EC98 /* Color_Burst_3.jpg */,
+				E4AA12EC2045B1C90056EC98 /* Death_Valley.jpg */,
 				E4AA12BB2045B1AE0056EC98 /* Desert.jpg */,
-				E4AA12E92045B1C70056EC98 /* Ducks on a Misty Pond.jpg */,
-				E4AA12BD2045B1AF0056EC98 /* Eagle & Waterfall.jpg */,
-				E4AA12C52045B1B30056EC98 /* Earth and Moon.jpg */,
-				E4AA12E22045B1C30056EC98 /* Earth Horizon.jpg */,
-				E4AA12CA2045B1B40056EC98 /* El Capitan 2.jpg */,
-				E4AA12CD2045B1B60056EC98 /* El Capitan.jpg */,
+				E4AA12E92045B1C70056EC98 /* Ducks_on_a_Misty_Pond.jpg */,
+				E4AA12BD2045B1AF0056EC98 /* Eagle&Waterfall.jpg */,
+				E4AA12C52045B1B30056EC98 /* Earth_and_Moon.jpg */,
+				E4AA12E22045B1C30056EC98 /* Earth_Horizon.jpg */,
+				E4AA12CA2045B1B40056EC98 /* El_Capitan_2.jpg */,
+				E4AA12CD2045B1B60056EC98 /* El_Capitan.jpg */,
 				E4AA12BE2045B1B00056EC98 /* Elephant.jpg */,
 				E4AA12EB2045B1C80056EC98 /* Flamingos.jpg */,
-				E4AA12ED2045B1C90056EC98 /* Floating Ice.jpg */,
+				E4AA12ED2045B1C90056EC98 /* Floating_Ice.jpg */,
 				E4AA12DB2045B1BF0056EC98 /* Floating Leaves.jpg */,
-				E4AA12C62045B1B30056EC98 /* Foggy Forest.jpg */,
-				E4AA12C72045B1B30056EC98 /* Forest in Mist.jpg */,
-				E4AA12E52045B1C50056EC98 /* Foxtail Barley.jpg */,
+				E4AA12C62045B1B30056EC98 /* Foggy_Forest.jpg */,
+				E4AA12C72045B1B30056EC98 /* Forest_in_Mist.jpg */,
+				E4AA12E52045B1C50056EC98 /* Foxtail_Barley.jpg */,
 				E4AA12E82045B1C60056EC98 /* Frog.jpg */,
 				E4AA12B82045B1AD0056EC98 /* Galaxy.jpg */,
-				E4AA12D92045B1BE0056EC98 /* Grass Blades.jpg */,
-				E4AA12D22045B1B90056EC98 /* Hawaiian Print.jpg */,
-				E4AA12D32045B1BA0056EC98 /* High Sierra.jpg */,
+				E4AA12D92045B1BE0056EC98 /* Grass_Blades.jpg */,
+				E4AA12D22045B1B90056EC98 /* Hawaiian_Print.jpg */,
+				E4AA12D32045B1BA0056EC98 /* High_Sierra.jpg */,
 				E4AA12DD2045B1C00056EC98 /* Isles.jpg */,
 				E4AA12C82045B1B40056EC98 /* Lake.jpg */,
 				E4AA12D72045B1BD0056EC98 /* Lion.jpg */,
-				E4AA12EA2045B1C70056EC98 /* Milky Way.jpg */,
+				E4AA12EA2045B1C70056EC98 /* Milky_Way.jpg */,
 				E4AA12B72045B1AD0056EC98 /* Moon.jpg */,
-				E4AA12DE2045B1C00056EC98 /* Mountain Range.jpg */,
-				E4AA12C02045B1B10056EC98 /* Mt. Fuji.jpg */,
-				E4AA12E32045B1C40056EC98 /* Pink Forest.jpg */,
-				E4AA12D42045B1BB0056EC98 /* Pink Lotus Flower.jpg */,
+				E4AA12DE2045B1C00056EC98 /* Mountain_Range.jpg */,
+				E4AA12C02045B1B10056EC98 /* Mt.Fuji.jpg */,
+				E4AA12E32045B1C40056EC98 /* Pink_Forest.jpg */,
+				E4AA12D42045B1BB0056EC98 /* Pink_Lotus_Flower.jpg */,
 				E4AA12CC2045B1B50056EC98 /* Poppies.jpg */,
-				E4AA12C42045B1B20056EC98 /* Red Bells.jpg */,
-				E4AA12E12045B1C30056EC98 /* Rice Paddy.jpg */,
-				E4AA12DF2045B1C00056EC98 /* Rolling Waves.jpg */,
+				E4AA12C42045B1B20056EC98 /* Red_Bells.jpg */,
+				E4AA12E12045B1C30056EC98 /* Rice_Paddy.jpg */,
+				E4AA12DF2045B1C00056EC98 /* Rolling_Waves.jpg */,
 				E4AA12E72045B1C60056EC98 /* Shapes.jpg */,
-				E4AA12C22045B1B20056EC98 /* Sierra 2.jpg */,
+				E4AA12C22045B1B20056EC98 /* Sierra_2.jpg */,
 				E4AA12E42045B1C40056EC98 /* Sierra.jpg */,
 				E4AA12C32045B1B20056EC98 /* Sky.jpg */,
 				E4AA12C92045B1B40056EC98 /* Snow.jpg */,
 				E4AA12CB2045B1B50056EC98 /* Underwater.jpg */,
 				E4AA12B92045B1AE0056EC98 /* Wave.jpg */,
-				E4AA12C12045B1B10056EC98 /* Yosemite 2.jpg */,
-				E4AA12EF2045B1CB0056EC98 /* Yosemite 3.jpg */,
-				E4AA12BF2045B1B00056EC98 /* Yosemite 4.jpg */,
-				E4AA12DA2045B1BE0056EC98 /* Yosemite 5.jpg */,
+				E4AA12C12045B1B10056EC98 /* Yosemite_2.jpg */,
+				E4AA12EF2045B1CB0056EC98 /* Yosemite_3.jpg */,
+				E4AA12BF2045B1B00056EC98 /* Yosemite_4.jpg */,
+				E4AA12DA2045B1BE0056EC98 /* Yosemite_5.jpg */,
 				E4AA12EE2045B1CA0056EC98 /* Yosemite.jpg */,
 				E4AA12E02045B1C20056EC98 /* Zebras.jpg */,
-				E4AA12D02045B1B80056EC98 /* Abstract Shapes.jpg */,
+				E4AA12D02045B1B80056EC98 /* Abstract_Shapes.jpg */,
 				E4AA12DC2045B1BF0056EC98 /* Abstract.jpg */,
-				E4AA12CE2045B1B70056EC98 /* Antelope Canyon.jpg */,
-				E4AA12BC2045B1AF0056EC98 /* Bahamas Aerial.jpg */,
+				E4AA12CE2045B1B70056EC98 /* Antelope_Canyon.jpg */,
+				E4AA12BC2045B1AF0056EC98 /* Bahamas_Aerial.jpg */,
 				E4AA12BA2045B1AE0056EC98 /* Beach.jpg */,
-				E4AA12D52045B1BC0056EC98 /* Blue Pond.jpg */,
-				E4AA12D82045B1BD0056EC98 /* Bristle Grass.jpg */,
+				E4AA12D52045B1BC0056EC98 /* Blue_Pond.jpg */,
+				E4AA12D82045B1BD0056EC98 /* Bristle_Grass.jpg */,
 				E4AA12CF2045B1B70056EC98 /* Brushes.jpg */,
 			);
 			path = pictures;
@@ -306,66 +309,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AA13172045B1CC0056EC98 /* Isles.jpg in Resources */,
-				E4AA12F62045B1CC0056EC98 /* Bahamas Aerial.jpg in Resources */,
-				E4AA13242045B1CC0056EC98 /* Milky Way.jpg in Resources */,
+				E4AA12F62045B1CC0056EC98 /* Bahamas_Aerial.jpg in Resources */,
+				E4AA13242045B1CC0056EC98 /* Milky_Way.jpg in Resources */,
 				E4AA12F52045B1CC0056EC98 /* Desert.jpg in Resources */,
-				E4AA13122045B1CC0056EC98 /* Bristle Grass.jpg in Resources */,
-				E4AA12F72045B1CC0056EC98 /* Eagle & Waterfall.jpg in Resources */,
+				E4AA13122045B1CC0056EC98 /* Bristle_Grass.jpg in Resources */,
+				E4AA12F72045B1CC0056EC98 /* Eagle&Waterfall.jpg in Resources */,
 				E4AA131E2045B1CC0056EC98 /* Sierra.jpg in Resources */,
-				E4AA13042045B1CC0056EC98 /* El Capitan 2.jpg in Resources */,
-				E4AA130D2045B1CC0056EC98 /* High Sierra.jpg in Resources */,
+				E4AA13042045B1CC0056EC98 /* El_Capitan_2.jpg in Resources */,
+				E4AA130D2045B1CC0056EC98 /* High_Sierra.jpg in Resources */,
 				E4AA13062045B1CC0056EC98 /* Poppies.jpg in Resources */,
-				E4AA130A2045B1CC0056EC98 /* Abstract Shapes.jpg in Resources */,
-				E4AA13292045B1CC0056EC98 /* Yosemite 3.jpg in Resources */,
+				E4AA130A2045B1CC0056EC98 /* Abstract_Shapes.jpg in Resources */,
+				E4AA13292045B1CC0056EC98 /* Yosemite_3.jpg in Resources */,
 				E4AA12F12045B1CC0056EC98 /* Moon.jpg in Resources */,
-				E4AA12F92045B1CC0056EC98 /* Yosemite 4.jpg in Resources */,
-				E4AA13262045B1CC0056EC98 /* Death Valley.jpg in Resources */,
+				E4AA12F92045B1CC0056EC98 /* Yosemite_4.jpg in Resources */,
+				E4AA13262045B1CC0056EC98 /* Death_Valley.jpg in Resources */,
 				E4AA13052045B1CC0056EC98 /* Underwater.jpg in Resources */,
-				E4AA131B2045B1CC0056EC98 /* Rice Paddy.jpg in Resources */,
-				E4AA131C2045B1CC0056EC98 /* Earth Horizon.jpg in Resources */,
+				E4AA131B2045B1CC0056EC98 /* Rice_Paddy.jpg in Resources */,
+				E4AA131C2045B1CC0056EC98 /* Earth_Horizon.jpg in Resources */,
 				E4AA12F82045B1CC0056EC98 /* Elephant.jpg in Resources */,
-				E4AA12FE2045B1CC0056EC98 /* Red Bells.jpg in Resources */,
-				E4AA12FA2045B1CC0056EC98 /* Mt. Fuji.jpg in Resources */,
-				E4AA13082045B1CC0056EC98 /* Antelope Canyon.jpg in Resources */,
+				E4AA12FE2045B1CC0056EC98 /* Red_Bells.jpg in Resources */,
+				E4AA12FA2045B1CC0056EC98 /* Mt.Fuji.jpg in Resources */,
+				E4AA13082045B1CC0056EC98 /* Antelope_Canyon.jpg in Resources */,
 				E4AA131A2045B1CC0056EC98 /* Zebras.jpg in Resources */,
 				E4AA13032045B1CC0056EC98 /* Snow.jpg in Resources */,
 				E4AA12F42045B1CC0056EC98 /* Beach.jpg in Resources */,
-				E4AA12FF2045B1CC0056EC98 /* Earth and Moon.jpg in Resources */,
-				E4AA131F2045B1CC0056EC98 /* Foxtail Barley.jpg in Resources */,
+				E4AA12FF2045B1CC0056EC98 /* Earth_and_Moon.jpg in Resources */,
+				E4AA131F2045B1CC0056EC98 /* Foxtail_Barley.jpg in Resources */,
 				E4AA12F22045B1CC0056EC98 /* Galaxy.jpg in Resources */,
 				E4AA13212045B1CC0056EC98 /* Shapes.jpg in Resources */,
 				E4AA12F32045B1CC0056EC98 /* Wave.jpg in Resources */,
-				E4AA12FB2045B1CC0056EC98 /* Yosemite 2.jpg in Resources */,
+				E4AA12FB2045B1CC0056EC98 /* Yosemite_2.jpg in Resources */,
 				E4AA13092045B1CC0056EC98 /* Brushes.jpg in Resources */,
 				E4AA13152045B1CC0056EC98 /* Floating Leaves.jpg in Resources */,
 				E4A58725204454FF0034F842 /* LaunchScreen.storyboard in Resources */,
-				E4AA13072045B1CC0056EC98 /* El Capitan.jpg in Resources */,
-				E4AA13142045B1CC0056EC98 /* Yosemite 5.jpg in Resources */,
+				E4AA13072045B1CC0056EC98 /* El_Capitan.jpg in Resources */,
+				E4AA13142045B1CC0056EC98 /* Yosemite_5.jpg in Resources */,
 				E4AA13222045B1CC0056EC98 /* Frog.jpg in Resources */,
-				E4AA12FC2045B1CC0056EC98 /* Sierra 2.jpg in Resources */,
-				E4AA130E2045B1CC0056EC98 /* Pink Lotus Flower.jpg in Resources */,
+				E4AA12FC2045B1CC0056EC98 /* Sierra_2.jpg in Resources */,
+				E4AA130E2045B1CC0056EC98 /* Pink_Lotus_Flower.jpg in Resources */,
 				E4AA12FD2045B1CC0056EC98 /* Sky.jpg in Resources */,
-				E4AA130C2045B1CC0056EC98 /* Hawaiian Print.jpg in Resources */,
-				E4AA13102045B1CC0056EC98 /* Color Burst 2.jpg in Resources */,
-				E4AA131D2045B1CC0056EC98 /* Pink Forest.jpg in Resources */,
-				E4AA13272045B1CC0056EC98 /* Floating Ice.jpg in Resources */,
+				E4AA130C2045B1CC0056EC98 /* Hawaiian_Print.jpg in Resources */,
+				E4AA13102045B1CC0056EC98 /* Color_Burst_2.jpg in Resources */,
+				E4AA131D2045B1CC0056EC98 /* Pink_Forest.jpg in Resources */,
+				E4AA13272045B1CC0056EC98 /* Floating_Ice.jpg in Resources */,
 				E4AA13162045B1CC0056EC98 /* Abstract.jpg in Resources */,
 				E4AA13282045B1CC0056EC98 /* Yosemite.jpg in Resources */,
-				E4AA13012045B1CC0056EC98 /* Forest in Mist.jpg in Resources */,
-				E4AA13202045B1CC0056EC98 /* Color Burst 1.jpg in Resources */,
+				E4AA13012045B1CC0056EC98 /* Forest_in_Mist.jpg in Resources */,
+				E4AA13202045B1CC0056EC98 /* Color_Burst_1.jpg in Resources */,
 				E4AA13112045B1CC0056EC98 /* Lion.jpg in Resources */,
 				E4A58722204454FF0034F842 /* Assets.xcassets in Resources */,
-				E4AA13132045B1CC0056EC98 /* Grass Blades.jpg in Resources */,
-				E4AA13182045B1CC0056EC98 /* Mountain Range.jpg in Resources */,
-				E4AA13232045B1CC0056EC98 /* Ducks on a Misty Pond.jpg in Resources */,
+				E4AA13132045B1CC0056EC98 /* Grass_Blades.jpg in Resources */,
+				E4AA13182045B1CC0056EC98 /* Mountain_Range.jpg in Resources */,
+				E4AA13232045B1CC0056EC98 /* Ducks_on_a_Misty_Pond.jpg in Resources */,
 				E4A58720204454FF0034F842 /* Main.storyboard in Resources */,
-				E4AA13002045B1CC0056EC98 /* Foggy Forest.jpg in Resources */,
+				E4AA13002045B1CC0056EC98 /* Foggy_Forest.jpg in Resources */,
 				E4AA13022045B1CC0056EC98 /* Lake.jpg in Resources */,
-				E4AA132A2045B1CC0056EC98 /* Color Burst 3.jpg in Resources */,
+				E4AA132A2045B1CC0056EC98 /* Color_Burst_3.jpg in Resources */,
 				E4AA13252045B1CC0056EC98 /* Flamingos.jpg in Resources */,
-				E4AA13192045B1CC0056EC98 /* Rolling Waves.jpg in Resources */,
+				E4AA13192045B1CC0056EC98 /* Rolling_Waves.jpg in Resources */,
 				E4AA130B2045B1CC0056EC98 /* Circles.jpg in Resources */,
-				E4AA130F2045B1CC0056EC98 /* Blue Pond.jpg in Resources */,
+				E4AA130F2045B1CC0056EC98 /* Blue_Pond.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +381,7 @@
 			files = (
 				E4A5871D204454FF0034F842 /* ViewController.swift in Sources */,
 				E4A5871B204454FF0034F842 /* AppDelegate.swift in Sources */,
+				E468991D2049ABCB003C2153 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
