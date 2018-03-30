@@ -47,7 +47,8 @@
                                 </constraints>
                                 <state key="normal" image="Beach.jpg"/>
                                 <connections>
-                                    <segue destination="Pew-of-uDl" kind="show" id="TXx-mV-4pV"/>
+                                    <action selector="imageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o8V-gF-afI"/>
+                                    <segue destination="Pew-of-uDl" kind="show" identifier="toResultViewController" id="qse-CN-Lx8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,7 +70,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="backText" destination="P8x-zX-wLX" id="Tsn-QZ-IFs"/>
+                        <outlet property="goText" destination="fp0-fx-ddb" id="V8c-qC-DJq"/>
                         <outlet property="images" destination="h8O-FN-3zk" id="LjP-0L-NJi"/>
+                        <outlet property="playStopText" destination="kAc-8y-gQc" id="Cmv-QU-hej"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -79,7 +83,7 @@
         <!--Result View Controller-->
         <scene sceneID="dHW-19-X4C">
             <objects>
-                <viewController id="Pew-of-uDl" customClass="ResultViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="toResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pew-of-uDl" customClass="ResultViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ne7-cd-R4l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

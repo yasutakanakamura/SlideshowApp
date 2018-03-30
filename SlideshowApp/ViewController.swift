@@ -9,11 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var playStopText: UIButton!
+    @IBOutlet weak var backText: UIButton!
+    @IBOutlet weak var goText: UIButton!
     // Image View をボタンに出来ない
     //@IBOutlet weak var images: UIImageView!
     
     //遷移先から戻るボタンを押した時に呼ばれる
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
+            //Bool値にTrueを代入
+            boolValue = true
+            //ラベルボタンを再生へ変更
+            playStopText.setTitle("再生", for: .normal)
     }
     
     // ButtonにImageを表示する
@@ -108,19 +115,23 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func play_stop(_ sender: Any) {
-
+        //タイマーが止まっている時
         if boolValue == true {
             //Bool値にFalseを代入
             boolValue = false
-            //2秒毎に画像をスライド
+            //2秒毎に画像をスライド（再生）
             timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(ShowImageAsCounter), userInfo: nil, repeats: true)
-            
+            //ラベルボタンを停止へ変更
+            playStopText.setTitle("停止", for: .normal)
         }
+        //タイマーが進んでいる時
         else {
             //Bool値にTrueを代入
             boolValue = true
-            //画像のスライドをストップ
+            //画像のスライドをストップ（一次停止）
             self.timer.invalidate();
+            //ラベルボタンを再生へ変更
+            playStopText.setTitle("再生", for: .normal)
         }
         
     }
@@ -147,15 +158,38 @@ class ViewController: UIViewController {
         }
     }
     
-    //遷移先へ現在の画像情報を渡す
+    //画像を押した時に呼ばれる処理
+    @IBAction func imageButton(_ sender: Any) {
+        segueToResult()
+        print("DEBUG_PRINT:SEGUE")
+        
+    }
+    
+    //遷移先へ渡す時の分岐処理（タイマーが進んでいるなら、止める）
+    func segueToResult() {
+        //タイマーが進んでいる時
+        if boolValue == false {
+            //画像のスライドをストップ（一次停止）
+            self.timer.invalidate();
+            boolValue = true
+            self.performSegue(withIdentifier: "toResultViewController", sender: nil)
+
+        } else {
+            self.performSegue(withIdentifier: "toResultViewController", sender: nil)
+        }
+    }
+    
+    //遷移先へ現在の画像情報を渡す情報
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //segueから遷移先のResultViewControllerを取得する
-        let resultViewController: ResultViewController = segue.destination as! ResultViewController
-        //現在表示されている画像
-        var cutrrentImage: UIImage = UIImage(named : imageLists[counter])!
-        print(counter)
-        print("DEBUG_PRINT:" + imageLists[counter])
-        resultViewController.currentImage = cutrrentImage
+        if segue.identifier == "toResultViewController" {
+            //segueから遷移先のResultViewControllerを取得する
+            let resultViewController: ResultViewController = segue.destination as! ResultViewController
+            //現在表示されている画像
+            let cutrrentImage: UIImage = UIImage(named : imageLists[counter])!
+            print(counter)
+            print("DEBUG_PRINT:" + imageLists[counter])
+            resultViewController.currentImage = cutrrentImage
+        }
     }
 }
 
